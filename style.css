@@ -4,4 +4,42 @@ background: -moz-linear-gradient(90deg, rgba(29,40,41,1) 0%, rgba(24,30,31,1) 11
 background: -webkit-linear-gradient(90deg, rgba(29,40,41,1) 0%, rgba(24,30,31,1) 11%, rgba(19,19,20,1) 41%, rgba(19,19,20,1) 58%, rgba(24,30,31,1) 85%, rgba(29,40,41,1) 100%);
 background: linear-gradient(90deg, rgba(29,40,41,1) 0%, rgba(24,30,31,1) 11%, rgba(19,19,20,1) 41%, rgba(19,19,20,1) 58%, rgba(24,30,31,1) 85%, rgba(29,40,41,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d2829",endColorstr="#1d2829",GradientType=1);
+color: white;
+padding: 3rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.contact-btn{
+    padding:0.5rem 2rem;
+    font-size: 1rem;
+    background-color: rgb(143, 143, 143,0.2);
+    border: 1px solid rgb(102, 102, 102,0.5);
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+.contact-btn:hover{
+    background-color: #76b0ab37;
+    /*border: 1px solid rgb(102, 102, 102,0.8);*/
 }
